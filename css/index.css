@@ -4,21 +4,21 @@ body {
 h1, h2, h3, h4, h5 {
   font-family: "Manuale","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
-section, footer {
+footer {
   padding: 20px;
 }
 li {
   text-decoration: none;
 }
 .bg-light {
-  background-color:#757575;
+  background-color:#e7e7e7;
+  color: #000;
+}
+.bg-blue {
+  background-color: #3995D7;
   color: #fff;
 }
 .bg-dark {
-  background-color: #424242;
-  color: #fff;
-}
-.bg-darkest {
   background-color: #212121;
   color: #fff;
 }
@@ -76,6 +76,10 @@ li {
 .navbar-toggle {
     z-index: 1;
 }
+section .container-fluid {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
 .hero {
   background-color: #000000;
   background: url('https://www.pixelstalk.net/wp-content/uploads/2015/12/Star-Wars-Logo-Wallpaper-HD.jpg');
@@ -84,6 +88,14 @@ li {
   background-size: cover;
   height: 500px;
   margin-top: -20px;
+}
+.overlay {
+  background: url(../assets/05.png);
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
 }
 .iframe-container {
   position: relative; margin: 5px; height: 0; overflow: hidden;
